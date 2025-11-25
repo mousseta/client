@@ -18,7 +18,7 @@ spec:
         app: clientservice
     spec:
       containers:
-      - image: mousse2025/client:dfb9f8e2c154f0b0544848c0439f8c8566014348
+      - image: mousse2025/client:573995a41112f40f31ea1854116e44d0eb3ebd0b
         name: client
         env:
         - name: SPRING_DATASOURCE_URL
